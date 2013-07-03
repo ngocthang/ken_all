@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = KenAll::VERSION
   s.authors     = ["Yamamoto Kazuhisa"]
   s.email       = ["ak.hisashi@gmail.com"]
-  s.homepage    = "https://github.com/kazuhisa/ken_all"
+  s.homepage    = "https://github.com/ngocthang/ken_all"
   s.summary     = "Japanese postal code tools."
   s.description = "Japanese postal code tools."
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "activerecord-import","~> 0.2.11"
   s.add_dependency "zipruby",">= 0"
-  s.add_dependency "rails", ">= 3.0.9"
+  s.add_dependency "rails", ">= 4.0.0"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
